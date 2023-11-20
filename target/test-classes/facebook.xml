@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="All Test Suite">
+	<test name="lunch"> 
+		<parameter name="firstname" value="shathi"/> 
+		<parameter name="lastname" value="akhter"/> 
+		<classes> 
+			<class name="Hari_Class.Hariclass"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Basics 1(failed)">
+    <classes>
+      <class name="com.example.Amazon_com">
+        <methods>
+          <include name="amazontesting"/>
+        </methods>
+      </class> <!-- com.example.Amazon_com -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->
